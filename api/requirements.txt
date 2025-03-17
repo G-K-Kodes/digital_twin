@@ -1,0 +1,8 @@
+flask
+pandas
+numpy
+joblib
+scapy
+psutil
+mac_vendor_lookup
+flask-socketio
