@@ -31,7 +31,9 @@ const Navbar = () => {
           ref={linksContainerRef}
           style={linkStyles}
         >
-          <ul className='links' ref={linksRef}>
+          <ul className='links' ref={linksRef} style = {{
+            justifyContent : "space-evenly"
+          }}>
             {links.map((link) => {
               const { id, url, text } = link;
               return (

@@ -110,7 +110,7 @@ def predict_netflow():
         return jsonify({'error': str(e)})
 
 
-@predict_bp.route('/', methods=['POST'])
+@predict_bp.route('/packets', methods=['POST'])
 def predict():
     try:
         data = request.json['data']
