@@ -7,45 +7,35 @@ export const links = [
   },
   {
     id: 2,
-    url: '/about',
-    text: 'about',
+    url: '/topology',
+    text: 'Topology',
   },
   {
     id: 3,
-    url: '/projects',
-    text: 'projects',
+    url: '/network',
+    text: 'Predictions',
   },
   {
     id: 4,
-    url: '/contact',
-    text: 'contact',
+    url: '/simulations',
+    text: 'simulations'
   },
   {
     id: 5,
-    url: '/profile',
-    text: 'profile',
+    url: '/contact',
+    text: 'Contact',
   },
 ];
 
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
-    icon: <FaFacebook />,
-  },
-  {
-    id: 2,
-    url: 'https://www.twitter.com',
-    icon: <FaTwitter />,
-  },
-  {
-    id: 3,
-    url: 'https://www.twitter.com',
+    url: 'https://www.linkedin.com/in/gokula-krishnan-kathavarayan-b7807b293/',
     icon: <FaLinkedin />,
   },
   {
-    id: 4,
-    url: 'https://www.twitter.com',
+    id: 2,
+    url: 'https://github.com/G-K-Kodes',
     icon: <FaGithub />,
   },
 ];
