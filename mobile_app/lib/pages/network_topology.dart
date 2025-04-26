@@ -138,7 +138,6 @@ class _NetworkTopologyPageState extends State<NetworkTopologyPage>
         _buildGraph();
       });
     } catch (e) {
-      print('Error fetching network data: $e');
       setState(() {
         _isLoading = false;
       });

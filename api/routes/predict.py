@@ -87,7 +87,6 @@ def save_netflow():
 
         # Save in memory
         latest_netflows[flow_id] = flow_data
-        print(f"[Netflow] Received: {flow_id}")
 
         # Save to DB only for Anomalies
         if flow_data.get("Prediction") in [ANOMALY_PREDICTION, POTENTIAL_ANOMALY]:
@@ -159,9 +158,7 @@ def get_all_netflows():
 def get_all_payloads():
     try:
         with SessionLocal() as session:
-            # Fetch all records from the Payload table
             payloads = session.query(Payload).all()
-            # Convert them to dictionaries (optional: use schema serialization)
             payload_list = [payload.to_dict() for payload in payloads]
         return jsonify(payload_list), 200
     except Exception as e:

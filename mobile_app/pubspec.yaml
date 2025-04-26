@@ -44,7 +44,7 @@ dependencies:
   fluttertoast: ^8.0.9
   fl_chart: ^0.70.0
   connectivity_plus: ^5.0.2
-  wifi_info_flutter: ^2.0.0
+  network_info_plus: ^6.1.1
   flutter_local_notifications: ^17.1.2
   graphview: ^1.0.0
   flutter_easy_dialogs: ^1.0.0
